@@ -1,6 +1,6 @@
 PS F:\test> python test2.py --get colorama
 Downloading:
-  colorama-latest.zip: 100% ===================================================================================================================== 52.1k/52.1k [00:00<00:00, 465kB/s]
+  colorama-latest.zip: 100% ===================================================================================================================== 52.1k/52.1k [00:00<00:00, 487kB/s]
 Download done.
 Extracting ZIP archive...
 
@@ -16,56 +16,60 @@ Extracting: colorama-0.4.6.tar.gz
     Compressed: 27,697 bytes
     Compression: 0
 Done extraction colorama-0.4.6.tar.gz
+
+Extract done.
+Summoning pip
+
+
+Installing: colorama-0.4.6-py2.py3-none-any.whl with pip
 Remote version of pip: 26.2.1
 Local version of pip:  26.2.1
 Was pip installed by pip? True
 Using pip 26.2.1 from C:\Users\Linux_Laptop\AppData\Local\Programs\Python\Python312\Lib\site-packages\pip (python 3.12)
 Non-user install because site-packages writeable
-Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-build-tracker-zicvxf4b
-Initialized build tracking at C:\Users\Linux_Laptop\AppData\Local\Temp\pip-build-tracker-zicvxf4b
-Created build tracker: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-build-tracker-zicvxf4b
-Entered build tracker: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-build-tracker-zicvxf4b
-Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-install-3fiokcsd
-Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-ephem-wheel-cache-yre81bfp
+Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-build-tracker-z2rnirhj
+Initialized build tracking at C:\Users\Linux_Laptop\AppData\Local\Temp\pip-build-tracker-z2rnirhj
+Created build tracker: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-build-tracker-z2rnirhj
+Entered build tracker: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-build-tracker-z2rnirhj
+Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-install-zon3ckrc
+Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-ephem-wheel-cache-ofdv7y6z
 Processing .\pyp_temp\colorama-0.4.6-py2.py3-none-any.whl
 colorama is already installed with the same version as the provided wheel. Use --force-reinstall to force an installation of the wheel.
-Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-unpack-ww5y4cyt
-Removed build tracker: 'C:\\Users\\Linux_Laptop\\AppData\\Local\\Temp\\pip-build-tracker-zicvxf4b'
+Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-unpack-1bei82uq
+Removed build tracker: 'C:\\Users\\Linux_Laptop\\AppData\\Local\\Temp\\pip-build-tracker-z2rnirhj'
+Installing: colorama-0.4.6.tar.gz with pip
 Remote version of pip: 26.2.1
 Local version of pip:  26.2.1
 Was pip installed by pip? True
 Using pip 26.2.1 from C:\Users\Linux_Laptop\AppData\Local\Programs\Python\Python312\Lib\site-packages\pip (python 3.12)
 Non-user install because site-packages writeable
-Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-build-tracker-t399fqfq
-Initialized build tracking at C:\Users\Linux_Laptop\AppData\Local\Temp\pip-build-tracker-t399fqfq
-Created build tracker: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-build-tracker-t399fqfq
-Entered build tracker: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-build-tracker-t399fqfq
-Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-install-5xdsegcw
-Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-ephem-wheel-cache-llpbt0_y
+Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-build-tracker-zsyeuky0
+Initialized build tracking at C:\Users\Linux_Laptop\AppData\Local\Temp\pip-build-tracker-zsyeuky0
+Created build tracker: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-build-tracker-zsyeuky0
+Entered build tracker: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-build-tracker-zsyeuky0
+Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-install-id05etri
+Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-ephem-wheel-cache-nrqh_0oc
 Processing .\pyp_temp\colorama-0.4.6.tar.gz
-  Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-req-build-0ihjqo_i
-  Added file:///F:/test/pyp_temp/colorama-0.4.6.tar.gz to build tracker 'C:\\Users\\Linux_Laptop\\AppData\\Local\\Temp\\pip-build-tracker-t399fqfq'
-  Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-build-env-lzuajbnk
+  Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-req-build-92aoxvir
+  Added file:///F:/test/pyp_temp/colorama-0.4.6.tar.gz to build tracker 'C:\\Users\\Linux_Laptop\\AppData\\Local\\Temp\\pip-build-tracker-zsyeuky0'
+  Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-build-env-dqfmos2k
   Running command installing build dependencies
   Using pip 26.2.1 from C:\Users\Linux_Laptop\AppData\Local\Programs\Python\Python312\Lib\site-packages\pip (python 3.12)
   Non-user install by explicit request
-  Created build tracker: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-build-tracker-t399fqfq
-  Entered build tracker: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-build-tracker-t399fqfq
-  Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-install-rhf0sygu
-  Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-ephem-wheel-cache-j2_58wog
+  Created build tracker: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-build-tracker-zsyeuky0
+  Entered build tracker: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-build-tracker-zsyeuky0
+  Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-install-6ibd9lmq
+  Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-ephem-wheel-cache-a754t9j2
   1 location(s) to search for versions of hatchling:
   * https://pypi.org/simple/hatchling/
   Fetching project page and analyzing links: https://pypi.org/simple/hatchling/
   Getting page https://pypi.org/simple/hatchling/
   Found index url https://pypi.org/simple/
   Looking up "https://pypi.org/simple/hatchling/" in the cache
-  No cache entry available
-  No cache entry available
-  Starting new HTTPS connection (1): pypi.org:443
-  https://pypi.org:443 "GET /simple/hatchling/ HTTP/1.1" 200 23275
-  Updating cache with response from "https://pypi.org/simple/hatchling/"
-  etag object cached for 1209600 seconds
-  Caching due to etag
+  Current age based on date: 514
+  Freshness lifetime from max-age: 600
+  The response is "fresh", returning cached response
+  600 > 514
   Fetched page https://pypi.org/simple/hatchling/ as application/vnd.pypi.simple.v1+json
     Found link https://files.pythonhosted.org/packages/ca/1e/575f78facd77ccb9355234ceeb6d2bbda7503e60cba2b325ec929d7dd283/hatchling-0.8.0-py2.py3-none-any.whl (from https://pypi.org/simple/hatchling/), version: 0.8.0
     Found link https://files.pythonhosted.org/packages/63/3b/d3ac57ed2b70d49749ab69c3701b224be1578069226b95b978d28d677480/hatchling-0.8.0.tar.gz (from https://pypi.org/simple/hatchling/), version: 0.8.0
@@ -241,27 +245,25 @@ Processing .\pyp_temp\colorama-0.4.6.tar.gz
   Given no hashes to check 120 links for project 'hatchling': discarding no candidates
   Collecting hatchling>=0.25.1
     Obtaining dependency information for hatchling>=0.25.1 from https://files.pythonhosted.org/packages/5f/80/91f51f439c05d4ec4623c22928ce16a938d6d793bf709477830823497859/hatchling-1.32.4-py3-none-any.whl.metadata
-    Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-unpack-dtcbe4x5
+    Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-unpack-qmmr587_
     Looking up "https://files.pythonhosted.org/packages/5f/80/91f51f439c05d4ec4623c22928ce16a938d6d793bf709477830823497859/hatchling-1.32.4-py3-none-any.whl.metadata" in the cache 
-    No cache entry available
-    No cache entry available
-    Starting new HTTPS connection (1): files.pythonhosted.org:443
-    https://files.pythonhosted.org:443 "GET /packages/5f/80/91f51f439c05d4ec4623c22928ce16a938d6d793bf709477830823497859/hatchling-1.32.4-py3-none-any.whl.metadata HTTP/1.1" 200 3850
-    Downloading hatchling-1.32.4-py3-none-any.whl.metadata (3.9 kB)
+    Current age based on date: 1616
     Ignoring unknown cache-control directive: immutable
-    Updating cache with response from "https://files.pythonhosted.org/packages/5f/80/91f51f439c05d4ec4623c22928ce16a938d6d793bf709477830823497859/hatchling-1.32.4-py3-none-any.whl.metadata"
-    etag object cached for 1209600 seconds
-    Caching due to etag
-    Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-metadata-gc959qsa
+    Freshness lifetime from max-age: 365000000
+    The response is "fresh", returning cached response
+    365000000 > 1616
+    Using cached hatchling-1.32.4-py3-none-any.whl.metadata (3.9 kB)
+    Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-metadata-igk_8dp_
   1 location(s) to search for versions of packaging:
   * https://pypi.org/simple/packaging/
   Fetching project page and analyzing links: https://pypi.org/simple/packaging/
   Getting page https://pypi.org/simple/packaging/
   Found index url https://pypi.org/simple/
   Looking up "https://pypi.org/simple/packaging/" in the cache
-  Current age based on date: 14957
+  Current age based on date: 514
   Freshness lifetime from max-age: 600
-  https://pypi.org:443 "GET /simple/packaging/ HTTP/1.1" 304 0
+  The response is "fresh", returning cached response
+  600 > 514
   Fetched page https://pypi.org/simple/packaging/ as application/vnd.pypi.simple.v1+json
     Found link https://files.pythonhosted.org/packages/bc/4f/9f94808ebac790cc3edba502cb9a1cc29a3f8262f7e2961aed2a159692b5/packaging-14.0-py2.py3-none-any.whl (from https://pypi.org/simple/packaging/), version: 14.0
     Found link https://files.pythonhosted.org/packages/db/ef/25e0ab6aebdd1c8898cac97c395b0ccc792a19ae9dd05ad8c66c4347ef50/packaging-14.0.tar.gz (from https://pypi.org/simple/packaging/), version: 14.0
@@ -375,24 +377,25 @@ Processing .\pyp_temp\colorama-0.4.6.tar.gz
   Given no hashes to check 12 links for project 'packaging': discarding no candidates
   Collecting packaging>=24.2 (from hatchling>=0.25.1)
     Obtaining dependency information for packaging>=24.2 from https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl.metadata
-    Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-unpack-4j_rkdp9
+    Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-unpack-7607_tlo
     Looking up "https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl.metadata" in the cache   
-    Current age based on date: 4041070
+    Current age based on date: 4042689
     Ignoring unknown cache-control directive: immutable
     Freshness lifetime from max-age: 365000000
     The response is "fresh", returning cached response
-    365000000 > 4041070
+    365000000 > 4042689
     Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
-    Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-metadata-doi2v56c
+    Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-metadata-car_k3rk
   1 location(s) to search for versions of pathspec:
   * https://pypi.org/simple/pathspec/
   Fetching project page and analyzing links: https://pypi.org/simple/pathspec/
   Getting page https://pypi.org/simple/pathspec/
   Found index url https://pypi.org/simple/
   Looking up "https://pypi.org/simple/pathspec/" in the cache
-  Current age based on date: 14956
+  Current age based on date: 514
   Freshness lifetime from max-age: 600
-  https://pypi.org:443 "GET /simple/pathspec/ HTTP/1.1" 304 0
+  The response is "fresh", returning cached response
+  600 > 514
   Fetched page https://pypi.org/simple/pathspec/ as application/vnd.pypi.simple.v1+json
     Found link https://files.pythonhosted.org/packages/b6/36/1917ff4019b4741beecf03237ead86cd886593de9eaa6c16e84bdeee44f6/pathspec-0.2.2.tar.gz (from https://pypi.org/simple/pathspec/), version: 0.2.2
     Found link https://files.pythonhosted.org/packages/c8/8e/8cf94298f70eefec1e9069e2cae2d68c183c4307fe0da6fe14cbd0ad8fd1/pathspec-0.3.0.tar.gz (from https://pypi.org/simple/pathspec/), version: 0.3.0
@@ -456,27 +459,25 @@ Processing .\pyp_temp\colorama-0.4.6.tar.gz
   Given no hashes to check 30 links for project 'pathspec': discarding no candidates
   Collecting pathspec>=0.10.1 (from hatchling>=0.25.1)
     Obtaining dependency information for pathspec>=0.10.1 from https://files.pythonhosted.org/packages/f1/d9/7fb5aa316bc299258e68c73ba3bddbc499654a07f151cba08f6153988714/pathspec-1.1.1-py3-none-any.whl.metadata
-    Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-unpack-aqkp32gm
+    Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-unpack-i7tl40il
     Looking up "https://files.pythonhosted.org/packages/f1/d9/7fb5aa316bc299258e68c73ba3bddbc499654a07f151cba08f6153988714/pathspec-1.1.1-py3-none-any.whl.metadata" in the cache   
-    Current age based on date: 5276412
+    Current age based on date: 5278031
     Ignoring unknown cache-control directive: immutable
     Freshness lifetime from max-age: 365000000
     The response is "fresh", returning cached response
-    365000000 > 5276412
+    365000000 > 5278031
     Using cached pathspec-1.1.1-py3-none-any.whl.metadata (14 kB)
-    Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-metadata-w_jmptmb
+    Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-metadata-eueh0glk
   1 location(s) to search for versions of pluggy:
   * https://pypi.org/simple/pluggy/
   Fetching project page and analyzing links: https://pypi.org/simple/pluggy/
   Getting page https://pypi.org/simple/pluggy/
   Found index url https://pypi.org/simple/
   Looking up "https://pypi.org/simple/pluggy/" in the cache
-  No cache entry available
-  No cache entry available
-  https://pypi.org:443 "GET /simple/pluggy/ HTTP/1.1" 200 6913
-  Updating cache with response from "https://pypi.org/simple/pluggy/"
-  etag object cached for 1209600 seconds
-  Caching due to etag
+  Current age based on date: 514
+  Freshness lifetime from max-age: 600
+  The response is "fresh", returning cached response
+  600 > 514
   Fetched page https://pypi.org/simple/pluggy/ as application/vnd.pypi.simple.v1+json
     Found link https://files.pythonhosted.org/packages/7a/09/56dd120ac549f335cc43e777432c5cca15c3c9cfeae8685ea5bd1a5e3779/pluggy-0.3.0-py2.py3-none-any.whl (from https://pypi.org/simple/pluggy/), version: 0.3.0
     Found link https://files.pythonhosted.org/packages/c3/61/1d23c57fcc6a5dcdf4ffd25ea1d567a8462762fab74ab9bb20df62b4a063/pluggy-0.3.0.tar.gz (from https://pypi.org/simple/pluggy/), version: 0.3.0
@@ -530,29 +531,25 @@ Processing .\pyp_temp\colorama-0.4.6.tar.gz
   Given no hashes to check 14 links for project 'pluggy': discarding no candidates
   Collecting pluggy>=1.0.0 (from hatchling>=0.25.1)
     Obtaining dependency information for pluggy>=1.0.0 from https://files.pythonhosted.org/packages/54/20/4d324d65cc6d9205fabedc306948156824eb9f0ee1633355a8f7ec5c66bf/pluggy-1.6.0-py3-none-any.whl.metadata
-    Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-unpack-omqqdzbj
+    Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-unpack-f0_cn0hz
     Looking up "https://files.pythonhosted.org/packages/54/20/4d324d65cc6d9205fabedc306948156824eb9f0ee1633355a8f7ec5c66bf/pluggy-1.6.0-py3-none-any.whl.metadata" in the cache     
-    No cache entry available
-    No cache entry available
-    https://files.pythonhosted.org:443 "GET /packages/54/20/4d324d65cc6d9205fabedc306948156824eb9f0ee1633355a8f7ec5c66bf/pluggy-1.6.0-py3-none-any.whl.metadata HTTP/1.1" 200 4811
-    Downloading pluggy-1.6.0-py3-none-any.whl.metadata (4.8 kB)
+    Current age based on date: 1615
     Ignoring unknown cache-control directive: immutable
-    Updating cache with response from "https://files.pythonhosted.org/packages/54/20/4d324d65cc6d9205fabedc306948156824eb9f0ee1633355a8f7ec5c66bf/pluggy-1.6.0-py3-none-any.whl.metadata"
-    etag object cached for 1209600 seconds
-    Caching due to etag
-    Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-metadata-_vmmunin
+    Freshness lifetime from max-age: 365000000
+    The response is "fresh", returning cached response
+    365000000 > 1615
+    Using cached pluggy-1.6.0-py3-none-any.whl.metadata (4.8 kB)
+    Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-metadata-9ssn5z_0
   1 location(s) to search for versions of tomlkit:
   * https://pypi.org/simple/tomlkit/
   Fetching project page and analyzing links: https://pypi.org/simple/tomlkit/
   Getting page https://pypi.org/simple/tomlkit/
   Found index url https://pypi.org/simple/
   Looking up "https://pypi.org/simple/tomlkit/" in the cache
-  No cache entry available
-  No cache entry available
-  https://pypi.org:443 "GET /simple/tomlkit/ HTTP/1.1" 200 15278
-  Updating cache with response from "https://pypi.org/simple/tomlkit/"
-  etag object cached for 1209600 seconds
-  Caching due to etag
+  Current age based on date: 513
+  Freshness lifetime from max-age: 600
+  The response is "fresh", returning cached response
+  600 > 513
   Fetched page https://pypi.org/simple/tomlkit/ as application/vnd.pypi.simple.v1+json
     Found link https://files.pythonhosted.org/packages/62/1a/d47efe5a7cce6cd835946885ee02596acfca81de7602c1e3efe92ba61443/tomlkit-0.1.0-py2.py3-none-any.whl (from https://pypi.org/simple/tomlkit/) (requires-python:>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*), version: 0.1.0
     Found link https://files.pythonhosted.org/packages/69/6c/9d0423587d14ff068638f7b9a8246e4a47b21071fcc34d0930f2c67008b7/tomlkit-0.1.0.tar.gz (from https://pypi.org/simple/tomlkit/) (requires-python:>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*), version: 0.1.0
@@ -670,29 +667,25 @@ Processing .\pyp_temp\colorama-0.4.6.tar.gz
   Given no hashes to check 42 links for project 'tomlkit': discarding no candidates
   Collecting tomlkit>=0.11.1 (from hatchling>=0.25.1)
     Obtaining dependency information for tomlkit>=0.11.1 from https://files.pythonhosted.org/packages/13/bc/8c13eb66537dce1d2bd3a57132902f38d0e7f5bb46fa9f4daed9fe9d76ee/tomlkit-0.15.1-py3-none-any.whl.metadata
-    Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-unpack-fzgabogo
+    Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-unpack-8g_9a7nf
     Looking up "https://files.pythonhosted.org/packages/13/bc/8c13eb66537dce1d2bd3a57132902f38d0e7f5bb46fa9f4daed9fe9d76ee/tomlkit-0.15.1-py3-none-any.whl.metadata" in the cache   
-    No cache entry available
-    No cache entry available
-    https://files.pythonhosted.org:443 "GET /packages/13/bc/8c13eb66537dce1d2bd3a57132902f38d0e7f5bb46fa9f4daed9fe9d76ee/tomlkit-0.15.1-py3-none-any.whl.metadata HTTP/1.1" 200 3308
-    Downloading tomlkit-0.15.1-py3-none-any.whl.metadata (3.3 kB)
+    Current age based on date: 1615
     Ignoring unknown cache-control directive: immutable
-    Updating cache with response from "https://files.pythonhosted.org/packages/13/bc/8c13eb66537dce1d2bd3a57132902f38d0e7f5bb46fa9f4daed9fe9d76ee/tomlkit-0.15.1-py3-none-any.whl.metadata"
-    etag object cached for 1209600 seconds
-    Caching due to etag
-    Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-metadata-sy7zuup2
+    Freshness lifetime from max-age: 365000000
+    The response is "fresh", returning cached response
+    365000000 > 1615
+    Using cached tomlkit-0.15.1-py3-none-any.whl.metadata (3.3 kB)
+    Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-metadata-y6pbb6sm
   1 location(s) to search for versions of trove-classifiers:
   * https://pypi.org/simple/trove-classifiers/
   Fetching project page and analyzing links: https://pypi.org/simple/trove-classifiers/
   Getting page https://pypi.org/simple/trove-classifiers/
   Found index url https://pypi.org/simple/
   Looking up "https://pypi.org/simple/trove-classifiers/" in the cache
-  No cache entry available
-  No cache entry available
-  https://pypi.org:443 "GET /simple/trove-classifiers/ HTTP/1.1" 200 34640
-  Updating cache with response from "https://pypi.org/simple/trove-classifiers/"
-  etag object cached for 1209600 seconds
-  Caching due to etag
+  Current age based on date: 513
+  Freshness lifetime from max-age: 600
+  The response is "fresh", returning cached response
+  600 > 513
   Fetched page https://pypi.org/simple/trove-classifiers/ as application/vnd.pypi.simple.v1+json
     Found link https://files.pythonhosted.org/packages/52/51/f6bfd89ca019a61a9b9656b9bb11a21641968e623260840e930ba8aa89ac/trove-classifiers-2020.4.1.tar.gz (from https://pypi.org/simple/trove-classifiers/), version: 2020.4.1
     Found link https://files.pythonhosted.org/packages/32/a5/caf2c03d3254cfa624667d6d1bc95ad42d6548d2da937fb5eac163eb1dac/trove_classifiers-2020.4.1-py3-none-any.whl (from https://pypi.org/simple/trove-classifiers/), version: 2020.4.1
@@ -954,90 +947,80 @@ Processing .\pyp_temp\colorama-0.4.6.tar.gz
   Given no hashes to check 256 links for project 'trove-classifiers': discarding no candidates
   Collecting trove-classifiers (from hatchling>=0.25.1)
     Obtaining dependency information for trove-classifiers from https://files.pythonhosted.org/packages/30/81/0da8afb52a71d0a4f2bd3152357b1a441e393b286374802b9d3addab4ab5/trove_classifiers-2026.9.21.13-py3-none-any.whl.metadata
-    Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-unpack-kqlwsuta
+    Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-unpack-8_u5er1o
     Looking up "https://files.pythonhosted.org/packages/30/81/0da8afb52a71d0a4f2bd3152357b1a441e393b286374802b9d3addab4ab5/trove_classifiers-2026.9.21.13-py3-none-any.whl.metadata" in the cache
-    No cache entry available
-    No cache entry available
-    https://files.pythonhosted.org:443 "GET /packages/30/81/0da8afb52a71d0a4f2bd3152357b1a441e393b286374802b9d3addab4ab5/trove_classifiers-2026.9.21.13-py3-none-any.whl.metadata HTTP/1.1" 200 2350
-    Downloading trove_classifiers-2026.9.21.13-py3-none-any.whl.metadata (2.4 kB)
+    Current age based on date: 1615
     Ignoring unknown cache-control directive: immutable
-    Updating cache with response from "https://files.pythonhosted.org/packages/30/81/0da8afb52a71d0a4f2bd3152357b1a441e393b286374802b9d3addab4ab5/trove_classifiers-2026.9.21.13-py3-none-any.whl.metadata"
-    etag object cached for 1209600 seconds
-    Caching due to etag
-    Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-metadata-h0ykjmyb
-  Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-unpack-o1hu4bhc
+    Freshness lifetime from max-age: 365000000
+    The response is "fresh", returning cached response
+    365000000 > 1615
+    Using cached trove_classifiers-2026.9.21.13-py3-none-any.whl.metadata (2.4 kB)
+    Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-metadata-n_gheqyt
+  Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-unpack-7q8y_9pi
   Looking up "https://files.pythonhosted.org/packages/5f/80/91f51f439c05d4ec4623c22928ce16a938d6d793bf709477830823497859/hatchling-1.32.4-py3-none-any.whl" in the cache
-  No cache entry available
-  No cache entry available
-  https://files.pythonhosted.org:443 "GET /packages/5f/80/91f51f439c05d4ec4623c22928ce16a938d6d793bf709477830823497859/hatchling-1.32.4-py3-none-any.whl HTTP/1.1" 200 78748
-  Downloading hatchling-1.32.4-py3-none-any.whl (78 kB)
+  Current age based on date: 1614
   Ignoring unknown cache-control directive: immutable
-  Updating cache with response from "https://files.pythonhosted.org/packages/5f/80/91f51f439c05d4ec4623c22928ce16a938d6d793bf709477830823497859/hatchling-1.32.4-py3-none-any.whl"
-  etag object cached for 1209600 seconds
-  Caching due to etag
-  Downloading link https://files.pythonhosted.org/packages/5f/80/91f51f439c05d4ec4623c22928ce16a938d6d793bf709477830823497859/hatchling-1.32.4-py3-none-any.whl (from https://pypi.org/simple/hatchling/) (requires-python:>=3.10) to C:\Users\Linux_Laptop\AppData\Local\Temp\pip-unpack-o1hu4bhc\hatchling-1.32.4-py3-none-any.whl
+  Freshness lifetime from max-age: 365000000
+  The response is "fresh", returning cached response
+  365000000 > 1614
+  Using cached hatchling-1.32.4-py3-none-any.whl (78 kB)
+  Downloading link https://files.pythonhosted.org/packages/5f/80/91f51f439c05d4ec4623c22928ce16a938d6d793bf709477830823497859/hatchling-1.32.4-py3-none-any.whl (from https://pypi.org/simple/hatchling/) (requires-python:>=3.10) to C:\Users\Linux_Laptop\AppData\Local\Temp\pip-unpack-7q8y_9pi\hatchling-1.32.4-py3-none-any.whl
   Looking up "https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl" in the cache
-  Current age based on date: 4041070
+  Current age based on date: 4042687
   Ignoring unknown cache-control directive: immutable
   Freshness lifetime from max-age: 365000000
   The response is "fresh", returning cached response
-  365000000 > 4041070
+  365000000 > 4042687
   Using cached packaging-26.3-py3-none-any.whl (129 kB)
-  Downloading link https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl (from https://pypi.org/simple/packaging/) (requires-python:>=3.9) to C:\Users\Linux_Laptop\AppData\Local\Temp\pip-unpack-o1hu4bhc\packaging-26.3-py3-none-any.whl
+  Downloading link https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl (from https://pypi.org/simple/packaging/) (requires-python:>=3.9) to C:\Users\Linux_Laptop\AppData\Local\Temp\pip-unpack-7q8y_9pi\packaging-26.3-py3-none-any.whl
   Looking up "https://files.pythonhosted.org/packages/f1/d9/7fb5aa316bc299258e68c73ba3bddbc499654a07f151cba08f6153988714/pathspec-1.1.1-py3-none-any.whl" in the cache
-  Current age based on date: 5276412
+  Current age based on date: 5278029
   Ignoring unknown cache-control directive: immutable
   Freshness lifetime from max-age: 365000000
   The response is "fresh", returning cached response
-  365000000 > 5276412
+  365000000 > 5278029
   Using cached pathspec-1.1.1-py3-none-any.whl (57 kB)
-  Downloading link https://files.pythonhosted.org/packages/f1/d9/7fb5aa316bc299258e68c73ba3bddbc499654a07f151cba08f6153988714/pathspec-1.1.1-py3-none-any.whl (from https://pypi.org/simple/pathspec/) (requires-python:>=3.9) to C:\Users\Linux_Laptop\AppData\Local\Temp\pip-unpack-o1hu4bhc\pathspec-1.1.1-py3-none-any.whl
+  Downloading link https://files.pythonhosted.org/packages/f1/d9/7fb5aa316bc299258e68c73ba3bddbc499654a07f151cba08f6153988714/pathspec-1.1.1-py3-none-any.whl (from https://pypi.org/simple/pathspec/) (requires-python:>=3.9) to C:\Users\Linux_Laptop\AppData\Local\Temp\pip-unpack-7q8y_9pi\pathspec-1.1.1-py3-none-any.whl
   Looking up "https://files.pythonhosted.org/packages/54/20/4d324d65cc6d9205fabedc306948156824eb9f0ee1633355a8f7ec5c66bf/pluggy-1.6.0-py3-none-any.whl" in the cache
-  No cache entry available
-  No cache entry available
-  https://files.pythonhosted.org:443 "GET /packages/54/20/4d324d65cc6d9205fabedc306948156824eb9f0ee1633355a8f7ec5c66bf/pluggy-1.6.0-py3-none-any.whl HTTP/1.1" 200 20538
-  Downloading pluggy-1.6.0-py3-none-any.whl (20 kB)
+  Current age based on date: 1614
   Ignoring unknown cache-control directive: immutable
-  Updating cache with response from "https://files.pythonhosted.org/packages/54/20/4d324d65cc6d9205fabedc306948156824eb9f0ee1633355a8f7ec5c66bf/pluggy-1.6.0-py3-none-any.whl"
-  etag object cached for 1209600 seconds
-  Caching due to etag
-  Downloading link https://files.pythonhosted.org/packages/54/20/4d324d65cc6d9205fabedc306948156824eb9f0ee1633355a8f7ec5c66bf/pluggy-1.6.0-py3-none-any.whl (from https://pypi.org/simple/pluggy/) (requires-python:>=3.9) to C:\Users\Linux_Laptop\AppData\Local\Temp\pip-unpack-o1hu4bhc\pluggy-1.6.0-py3-none-any.whl
+  Freshness lifetime from max-age: 365000000
+  The response is "fresh", returning cached response
+  365000000 > 1614
+  Using cached pluggy-1.6.0-py3-none-any.whl (20 kB)
+  Downloading link https://files.pythonhosted.org/packages/54/20/4d324d65cc6d9205fabedc306948156824eb9f0ee1633355a8f7ec5c66bf/pluggy-1.6.0-py3-none-any.whl (from https://pypi.org/simple/pluggy/) (requires-python:>=3.9) to C:\Users\Linux_Laptop\AppData\Local\Temp\pip-unpack-7q8y_9pi\pluggy-1.6.0-py3-none-any.whl
   Looking up "https://files.pythonhosted.org/packages/13/bc/8c13eb66537dce1d2bd3a57132902f38d0e7f5bb46fa9f4daed9fe9d76ee/tomlkit-0.15.1-py3-none-any.whl" in the cache
-  No cache entry available
-  No cache entry available
-  https://files.pythonhosted.org:443 "GET /packages/13/bc/8c13eb66537dce1d2bd3a57132902f38d0e7f5bb46fa9f4daed9fe9d76ee/tomlkit-0.15.1-py3-none-any.whl HTTP/1.1" 200 49449
-  Downloading tomlkit-0.15.1-py3-none-any.whl (49 kB)
+  Current age based on date: 1614
   Ignoring unknown cache-control directive: immutable
-  Updating cache with response from "https://files.pythonhosted.org/packages/13/bc/8c13eb66537dce1d2bd3a57132902f38d0e7f5bb46fa9f4daed9fe9d76ee/tomlkit-0.15.1-py3-none-any.whl"
-  etag object cached for 1209600 seconds
-  Caching due to etag
-  Downloading link https://files.pythonhosted.org/packages/13/bc/8c13eb66537dce1d2bd3a57132902f38d0e7f5bb46fa9f4daed9fe9d76ee/tomlkit-0.15.1-py3-none-any.whl (from https://pypi.org/simple/tomlkit/) (requires-python:>=3.9) to C:\Users\Linux_Laptop\AppData\Local\Temp\pip-unpack-o1hu4bhc\tomlkit-0.15.1-py3-none-any.whl
+  Freshness lifetime from max-age: 365000000
+  The response is "fresh", returning cached response
+  365000000 > 1614
+  Using cached tomlkit-0.15.1-py3-none-any.whl (49 kB)
+  Downloading link https://files.pythonhosted.org/packages/13/bc/8c13eb66537dce1d2bd3a57132902f38d0e7f5bb46fa9f4daed9fe9d76ee/tomlkit-0.15.1-py3-none-any.whl (from https://pypi.org/simple/tomlkit/) (requires-python:>=3.9) to C:\Users\Linux_Laptop\AppData\Local\Temp\pip-unpack-7q8y_9pi\tomlkit-0.15.1-py3-none-any.whl
   Looking up "https://files.pythonhosted.org/packages/30/81/0da8afb52a71d0a4f2bd3152357b1a441e393b286374802b9d3addab4ab5/trove_classifiers-2026.9.21.13-py3-none-any.whl" in the cache
-  No cache entry available
-  No cache entry available
-  https://files.pythonhosted.org:443 "GET /packages/30/81/0da8afb52a71d0a4f2bd3152357b1a441e393b286374802b9d3addab4ab5/trove_classifiers-2026.9.21.13-py3-none-any.whl HTTP/1.1" 200 14232
-  Downloading trove_classifiers-2026.9.21.13-py3-none-any.whl (14 kB)
+  Current age based on date: 1614
   Ignoring unknown cache-control directive: immutable
-  Updating cache with response from "https://files.pythonhosted.org/packages/30/81/0da8afb52a71d0a4f2bd3152357b1a441e393b286374802b9d3addab4ab5/trove_classifiers-2026.9.21.13-py3-none-any.whl"
-  etag object cached for 1209600 seconds
-  Caching due to etag
-  Downloading link https://files.pythonhosted.org/packages/30/81/0da8afb52a71d0a4f2bd3152357b1a441e393b286374802b9d3addab4ab5/trove_classifiers-2026.9.21.13-py3-none-any.whl (from https://pypi.org/simple/trove-classifiers/) to C:\Users\Linux_Laptop\AppData\Local\Temp\pip-unpack-o1hu4bhc\trove_classifiers-2026.9.21.13-py3-none-any.whl
+  Freshness lifetime from max-age: 365000000
+  The response is "fresh", returning cached response
+  365000000 > 1614
+  Using cached trove_classifiers-2026.9.21.13-py3-none-any.whl (14 kB)
+  Downloading link https://files.pythonhosted.org/packages/30/81/0da8afb52a71d0a4f2bd3152357b1a441e393b286374802b9d3addab4ab5/trove_classifiers-2026.9.21.13-py3-none-any.whl (from https://pypi.org/simple/trove-classifiers/) to C:\Users\Linux_Laptop\AppData\Local\Temp\pip-unpack-7q8y_9pi\trove_classifiers-2026.9.21.13-py3-none-any.whl
   Installing collected packages: trove-classifiers, tomlkit, pluggy, pathspec, packaging, hatchling
-    Creating C:\Users\Linux_Laptop\AppData\Local\Temp\pip-build-env-lzuajbnk\overlay\Scripts
+    Creating C:\Users\Linux_Laptop\AppData\Local\Temp\pip-build-env-dqfmos2k\overlay\Scripts
 
   Successfully installed hatchling-1.32.4 packaging-26.3 pathspec-1.1.1 pluggy-1.6.0 tomlkit-0.15.1 trove-classifiers-2026.9.21.13
-  Removed build tracker: 'C:\\Users\\Linux_Laptop\\AppData\\Local\\Temp\\pip-build-tracker-t399fqfq'
+  Removed build tracker: 'C:\\Users\\Linux_Laptop\\AppData\\Local\\Temp\\pip-build-tracker-zsyeuky0'
   Installing build dependencies ... done
   Running command Getting requirements to build wheel
   Getting requirements to build wheel ... done
-  Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-modern-metadata-nzmmewan
+  Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-modern-metadata-1us63zu8
   Running command Preparing metadata (pyproject.toml)
   Preparing metadata (pyproject.toml) ... done
-  Source in C:\Users\Linux_Laptop\AppData\Local\Temp\pip-req-build-0ihjqo_i has version 0.4.6, which satisfies requirement colorama==0.4.6 from file:///F:/test/pyp_temp/colorama-0.4.6.tar.gz
-  Removed colorama==0.4.6 from file:///F:/test/pyp_temp/colorama-0.4.6.tar.gz from build tracker 'C:\\Users\\Linux_Laptop\\AppData\\Local\\Temp\\pip-build-tracker-t399fqfq'        
-Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-unpack-1ri99520
+  Source in C:\Users\Linux_Laptop\AppData\Local\Temp\pip-req-build-92aoxvir has version 0.4.6, which satisfies requirement colorama==0.4.6 from file:///F:/test/pyp_temp/colorama-0.4.6.tar.gz
+  Removed colorama==0.4.6 from file:///F:/test/pyp_temp/colorama-0.4.6.tar.gz from build tracker 'C:\\Users\\Linux_Laptop\\AppData\\Local\\Temp\\pip-build-tracker-zsyeuky0'        
+Created temporary directory: C:\Users\Linux_Laptop\AppData\Local\Temp\pip-unpack-md64it5c
 Building wheels for collected packages: colorama
-  Destination directory: c:\users\linux_laptop\appdata\local\pip\cache\wheels\dc\c0\03\3101b8c55f440daf491b1936b395425d577581a350067d63fe\tmpu8qa3p3b
+  Destination directory: c:\users\linux_laptop\appdata\local\pip\cache\wheels\dc\c0\03\3101b8c55f440daf491b1936b395425d577581a350067d63fe\tmpdwxhxjxk
   Running command Building wheel for colorama (pyproject.toml)
   Building wheel for colorama (pyproject.toml) ... done
   Created wheel for colorama: filename=colorama-0.4.6-py2.py3-none-any.whl size=25348 sha256=95f34781d712a858fcbce79988bca833bb01857a8e38c2501f9172f67691f38f
@@ -1054,4 +1037,17 @@ Installing collected packages: colorama
       Successfully uninstalled colorama-0.4.6
 
 Successfully installed colorama-0.4.6
-Removed build tracker: 'C:\\Users\\Linux_Laptop\\AppData\\Local\\Temp\\pip-build-tracker-t399fqfq'
+Removed build tracker: 'C:\\Users\\Linux_Laptop\\AppData\\Local\\Temp\\pip-build-tracker-zsyeuky0'
+
+Install done.
+Cleaning up leftover temporary files.
+
+Deleting: pyp_temp\colorama-0.4.6-py2.py3-none-any.whl
+Deleting: pyp_temp\colorama-0.4.6.tar.gz
+Deleting directory: 'pyp_temp'
+Deleting: colorama-latest.zip
+
+Clean up done.
+Installation done.
+
+PS F:\test> 
