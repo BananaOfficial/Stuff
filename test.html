@@ -6,221 +6,113 @@
   <title>RequestTimeout Hosting</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    html { color-scheme: dark; scroll-behavior: smooth; }
-    body {
-      margin: 0;
-      background: #07090c;
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-    }
-
-    @keyframes floatGlow {
-      0%, 100% { transform: translate3d(-2%, 0, 0); opacity: .55; }
-      50% { transform: translate3d(2%, 3%, 0); opacity: .8; }
-    }
-
-    @keyframes reveal {
-      from { opacity: 0; transform: translateY(10px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    @keyframes signal {
-      0% { left: -20%; opacity: 0; }
-      15% { opacity: .8; }
-      80% { opacity: .15; }
-      100% { left: 120%; opacity: 0; }
-    }
-
-    @keyframes blink {
-      0%, 45%, 100% { opacity: .25; }
-      50%, 75% { opacity: .9; }
-    }
-
-    .float-glow { animation: floatGlow 16s ease-in-out infinite; }
-    .reveal { animation: reveal .65s ease-out both; }
-    .signal { animation: signal 6s ease-in-out infinite; }
-    .blink { animation: blink 3s ease-in-out infinite; }
-
-    @media (prefers-reduced-motion: reduce) {
-      html { scroll-behavior: auto; }
-      .float-glow, .reveal, .signal, .blink { animation: none; }
-    }
+    html { color-scheme: dark; }
+    body { margin: 0; background: #07090c; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
   </style>
 </head>
-
 <body class="text-zinc-300">
-  <div class="min-h-screen bg-[#07090c] overflow-hidden">
-
-    <!-- Ambient background -->
-    <div class="pointer-events-none fixed inset-0 overflow-hidden">
-      <div class="float-glow absolute left-[8%] top-[-12rem] h-[32rem] w-[32rem] rounded-full bg-[radial-gradient(circle,rgba(16,185,129,.075),transparent_68%)] blur-3xl"></div>
-      <div class="float-glow absolute right-[-10rem] top-[35%] h-[30rem] w-[30rem] rounded-full bg-[radial-gradient(circle,rgba(59,130,246,.055),transparent_68%)] blur-3xl" style="animation-delay:-8s"></div>
-      <div class="absolute inset-0 opacity-[.035] bg-[linear-gradient(rgba(255,255,255,.5)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,.5)_1px,transparent_1px)] bg-[size:48px_48px]"></div>
-    </div>
+  <div class="min-h-screen overflow-hidden bg-[#07090c]">
+    <div class="pointer-events-none absolute left-[-12rem] top-[-10rem] h-[32rem] w-[46rem] bg-[radial-gradient(ellipse,rgba(16,185,129,.10),transparent_68%)]"></div>
+    <div class="pointer-events-none absolute right-[-14rem] top-[24rem] h-[30rem] w-[36rem] bg-[radial-gradient(ellipse,rgba(59,130,246,.07),transparent_68%)]"></div>
 
     <div class="relative mx-auto max-w-6xl px-5 sm:px-8">
-
-      <!-- Header -->
-      <div class="reveal flex items-center justify-between border-b border-white/[.08] py-5">
-        <a href="#" class="text-sm font-medium tracking-tight text-zinc-100">
-          RequestTimeout
-        </a>
-        <div class="flex items-center gap-5 text-[10px] uppercase tracking-[.2em] text-zinc-600">
-          <a href="#how" class="transition hover:text-zinc-300">How it works</a>
-          <a href="#registry" class="transition hover:text-zinc-300">Registry</a>
-          <a href="#api" class="transition hover:text-zinc-300">API</a>
-        </div>
+      <div class="flex items-center justify-between border-b border-white/[.08] py-5">
+        <div class="text-sm font-medium text-zinc-100">RequestTimeout</div>
+        <div class="text-[10px] uppercase tracking-[.2em] text-zinc-600">Hosting</div>
       </div>
 
-      <!-- Opening -->
       <main>
-        <section class="relative py-20 sm:py-28">
-          <div class="pointer-events-none absolute -left-24 top-8 h-72 w-[42rem] bg-[radial-gradient(ellipse_at_left,rgba(34,197,94,.07),transparent_70%)]"></div>
-
-          <div class="relative max-w-4xl reveal">
-            <div class="mb-7 flex items-center gap-3 text-[10px] uppercase tracking-[.24em] text-zinc-600">
-              <div class="h-px w-10 bg-emerald-400/50"></div>
-              RequestTimeout Hosting
-            </div>
-
-            <h1 class="text-4xl font-medium tracking-[-.05em] text-zinc-100 sm:text-6xl lg:text-7xl">
-              Small hosting.<br>
-              <span class="bg-linear-to-r from-zinc-100 via-zinc-300 to-emerald-300/80 bg-clip-text text-transparent">Very little ceremony.</span>
-            </h1>
-
-            <p class="mt-7 max-w-2xl text-sm leading-7 text-zinc-500">
-              Put a domain in the registry, attach some HTML, and let the edge serve it.
-              RequestTimeout keeps the public side simple so the infrastructure can stay simple too.
-            </p>
+        <div class="border-b border-white/[.08] py-20 sm:py-28">
+          <div class="max-w-4xl">
+            <div class="text-[10px] uppercase tracking-[.25em] text-emerald-400/60">RequestTimeout Hosting</div>
+            <h1 class="mt-5 text-5xl font-medium tracking-[-.055em] text-zinc-100 sm:text-7xl">Hosting</h1>
+            <div class="mt-7 h-px w-48 bg-linear-to-r from-emerald-400/60 via-blue-400/30 to-transparent"></div>
+            <p class="mt-7 max-w-2xl text-sm leading-7 text-zinc-500">Static hosting backed by a GitHub registry and a Cloudflare Worker.</p>
           </div>
+        </div>
 
-          <!-- live-looking path, but not fake telemetry -->
-          <div class="relative mt-14 overflow-hidden border border-white/[.09] bg-white/[.018] reveal" style="animation-delay:.12s">
-            <div class="absolute inset-x-0 top-1/2 h-px bg-white/[.06]"></div>
-            <div class="signal absolute top-1/2 h-px w-24 bg-linear-to-r from-transparent via-emerald-300/70 to-transparent"></div>
-
-            <div class="grid sm:grid-cols-[1fr_auto_1fr_auto_1fr]">
-              <div class="relative p-5 sm:p-6">
-                <div class="text-[10px] uppercase tracking-[.18em] text-zinc-700">request</div>
-                <div class="mt-3 text-sm text-zinc-200">/{domain}</div>
-              </div>
-
-              <div class="hidden items-center px-2 text-zinc-700 sm:flex">→</div>
-
-              <div class="relative border-t border-white/[.07] p-5 sm:border-t-0 sm:p-6">
-                <div class="text-[10px] uppercase tracking-[.18em] text-zinc-700">edge</div>
-                <div class="mt-3 text-sm text-zinc-200">worker</div>
-              </div>
-
-              <div class="hidden items-center px-2 text-zinc-700 sm:flex">→</div>
-
-              <div class="relative border-t border-white/[.07] p-5 sm:border-t-0 sm:p-6">
-                <div class="text-[10px] uppercase tracking-[.18em] text-zinc-700">source</div>
-                <div class="mt-3 text-sm text-zinc-200">registry</div>
-              </div>
-            </div>
+        <div class="grid border-b border-white/[.08] lg:grid-cols-3">
+          <div class="border-b border-white/[.08] p-7 lg:border-b-0 lg:border-r">
+            <div class="text-[10px] uppercase tracking-[.2em] text-zinc-600">01</div>
+            <div class="mt-8 text-sm text-zinc-100">Domain</div>
+            <div class="mt-3 text-xs leading-6 text-zinc-600">A registered name identifies the site to serve.</div>
           </div>
-        </section>
-
-        <!-- How -->
-        <section id="how" class="border-t border-white/[.08] py-16">
-          <div class="grid gap-10 lg:grid-cols-[220px_1fr]">
-            <div>
-              <div class="text-[10px] uppercase tracking-[.22em] text-zinc-600">01 / How</div>
-              <h2 class="mt-3 text-xl font-medium tracking-tight text-zinc-100">The whole trick</h2>
-            </div>
-
-            <div class="max-w-3xl">
-              <p class="text-sm leading-7 text-zinc-500">
-                A request arrives with a domain name. The worker takes that name and looks for the matching
-                JSON file in the registry. The HTML inside that record becomes the response.
-              </p>
-
-              <div class="mt-9 border-l border-emerald-400/30 pl-5">
-                <div class="text-xs text-zinc-300">domain → JSON record → HTML response</div>
-                <div class="mt-2 text-[11px] text-zinc-700">no database lookup required for the public path</div>
-              </div>
-            </div>
+          <div class="border-b border-white/[.08] p-7 lg:border-b-0 lg:border-r">
+            <div class="text-[10px] uppercase tracking-[.2em] text-zinc-600">02</div>
+            <div class="mt-8 text-sm text-zinc-100">Worker</div>
+            <div class="mt-3 text-xs leading-6 text-zinc-600">The public endpoint resolves the requested domain.</div>
           </div>
-        </section>
+          <div class="p-7">
+            <div class="text-[10px] uppercase tracking-[.2em] text-zinc-600">03</div>
+            <div class="mt-8 text-sm text-zinc-100">Registry</div>
+            <div class="mt-3 text-xs leading-6 text-zinc-600">A JSON record contains the HTML and ownership data.</div>
+          </div>
+        </div>
 
-        <!-- Registry -->
-        <section id="registry" class="border-t border-white/[.08] py-16">
-          <div class="grid gap-10 lg:grid-cols-[220px_1fr]">
-            <div>
-              <div class="text-[10px] uppercase tracking-[.22em] text-zinc-600">02 / Registry</div>
-              <h2 class="mt-3 text-xl font-medium tracking-tight text-zinc-100">Files are the registry.</h2>
+        <div class="border-b border-white/[.08] py-16">
+          <div class="text-[10px] uppercase tracking-[.22em] text-zinc-600">Request</div>
+          <div class="mt-6 overflow-hidden border border-white/[.08] bg-[#0a0d11]">
+            <div class="flex items-center gap-4 border-b border-white/[.07] px-5 py-4">
+              <div class="text-xs text-emerald-300">GET</div>
+              <div class="text-xs text-zinc-300">/{domain}</div>
             </div>
-
-            <div>
-              <p class="max-w-3xl text-sm leading-7 text-zinc-500">
-                Registered domains live as individual JSON files. Ownership information sits beside the
-                content so the record can be managed without inventing another storage layer.
-              </p>
-
-              <div class="mt-8 overflow-hidden border border-white/[.08] bg-[#0a0d11]">
-                <div class="flex flex-wrap items-center justify-between gap-3 border-b border-white/[.07] px-5 py-3 text-[10px] text-zinc-600">
-                  <span>domains/example.json</span>
-                  <span>registry record</span>
+            <div class="relative overflow-hidden">
+              <div class="pointer-events-none absolute inset-0 bg-linear-to-r from-emerald-400/[.035] via-transparent to-blue-400/[.035]"></div>
+              <div class="relative grid sm:grid-cols-3">
+                <div class="border-b border-white/[.07] p-6 sm:border-b-0 sm:border-r">
+                  <div class="text-[10px] text-zinc-700">CLIENT</div>
+                  <div class="mt-4 text-xs text-zinc-400">Browser</div>
                 </div>
-                <pre class="overflow-x-auto p-5 text-xs leading-7 text-zinc-500"><code>{
+                <div class="border-b border-white/[.07] p-6 sm:border-b-0 sm:border-r">
+                  <div class="text-[10px] text-zinc-700">EDGE</div>
+                  <div class="mt-4 text-xs text-zinc-400">Cloudflare Worker</div>
+                </div>
+                <div class="p-6">
+                  <div class="text-[10px] text-zinc-700">SOURCE</div>
+                  <div class="mt-4 text-xs text-zinc-400">GitHub registry</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="border-b border-white/[.08] py-16">
+          <div class="text-[10px] uppercase tracking-[.22em] text-zinc-600">Registry</div>
+          <div class="mt-6 grid gap-8 lg:grid-cols-[1fr_280px]">
+            <div class="overflow-hidden border border-white/[.08] bg-[#0a0d11]">
+              <div class="border-b border-white/[.07] px-5 py-4 text-[10px] text-zinc-600">domains/example.json</div>
+              <pre class="overflow-x-auto p-6 text-xs leading-7 text-zinc-500"><code>{
   "html": "&lt;h1&gt;hello&lt;/h1&gt;",
   "owner": "BananaOfficial"
 }</code></pre>
+            </div>
+            <div class="border-l border-white/[.08] pl-6">
+              <div class="text-[10px] uppercase tracking-[.2em] text-zinc-600">Structure</div>
+              <div class="mt-5 space-y-4 text-xs">
+                <div><div class="text-zinc-300">domains/</div><div class="mt-1 text-zinc-700">registered sites</div></div>
+                <div><div class="text-zinc-300">domain.json</div><div class="mt-1 text-zinc-700">HTML + ownership</div></div>
               </div>
             </div>
           </div>
-        </section>
+        </div>
 
-        <!-- API -->
-        <section id="api" class="border-t border-white/[.08] py-16">
-          <div class="grid gap-10 lg:grid-cols-[220px_1fr]">
-            <div>
-              <div class="text-[10px] uppercase tracking-[.22em] text-zinc-600">03 / Endpoint</div>
-              <h2 class="mt-3 text-xl font-medium tracking-tight text-zinc-100">Public serving path</h2>
-            </div>
-
-            <div>
-              <div class="relative overflow-hidden border border-emerald-400/15">
-                <div class="absolute inset-0 bg-linear-to-r from-emerald-400/[.035] via-transparent to-blue-400/[.025]"></div>
-
-                <div class="relative p-6 sm:p-7">
-                  <div class="flex items-center gap-3 text-[10px] uppercase tracking-[.2em] text-zinc-600">
-                    <div class="blink h-1.5 w-1.5 rounded-full bg-emerald-300"></div>
-                    GET
-                  </div>
-
-                  <div class="mt-5 break-all text-sm text-zinc-200 sm:text-base">
-                    https://p.bananaofficial.workers.dev/<span class="text-emerald-300">example</span>
-                  </div>
-
-                  <div class="mt-5 text-xs leading-6 text-zinc-600">
-                    Replace <span class="text-zinc-400">example</span> with a registered domain.
-                  </div>
-                </div>
-              </div>
-
-              <div class="mt-7 grid gap-px overflow-hidden border border-white/[.07] bg-white/[.07] sm:grid-cols-3">
-                <div class="bg-[#080b0f] p-5">
-                  <div class="text-[10px] text-zinc-700">INPUT</div>
-                  <div class="mt-3 text-xs text-zinc-400">domain name</div>
-                </div>
-                <div class="bg-[#080b0f] p-5">
-                  <div class="text-[10px] text-zinc-700">LOOKUP</div>
-                  <div class="mt-3 text-xs text-zinc-400">matching JSON file</div>
-                </div>
-                <div class="bg-[#080b0f] p-5">
-                  <div class="text-[10px] text-zinc-700">OUTPUT</div>
-                  <div class="mt-3 text-xs text-zinc-400">stored HTML</div>
-                </div>
+        <div class="border-b border-white/[.08] py-16">
+          <div class="text-[10px] uppercase tracking-[.22em] text-zinc-600">Endpoint</div>
+          <div class="mt-6 relative overflow-hidden border border-emerald-400/15">
+            <div class="absolute inset-0 bg-linear-to-br from-emerald-400/[.045] via-transparent to-blue-400/[.035]"></div>
+            <div class="relative p-7 sm:p-9">
+              <div class="text-[10px] uppercase tracking-[.2em] text-zinc-600">Public URL</div>
+              <div class="mt-5 break-all text-sm text-zinc-200 sm:text-base">
+                https://p.bananaofficial.workers.dev/<span class="text-emerald-300">example</span>
               </div>
             </div>
           </div>
-        </section>
+        </div>
       </main>
 
-      <div class="flex flex-col gap-3 border-t border-white/[.08] py-8 text-[10px] text-zinc-700 sm:flex-row sm:items-center sm:justify-between">
-        <span>RequestTimeout Hosting</span>
-        <span>registry-backed static hosting</span>
+      <div class="flex items-center justify-between py-7 text-[10px] text-zinc-700">
+        <span>RequestTimeout</span>
+        <span>Hosting</span>
       </div>
     </div>
   </div>
