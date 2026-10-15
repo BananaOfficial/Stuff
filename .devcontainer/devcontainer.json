@@ -1,0 +1,15 @@
+{
+  "name": "",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "forwardPorts": [8000, 3000],
+  "portsAttributes": {
+    "5500": {
+      "label": "Python app",
+      "onAutoForward": "notify"
+    },
+    "5505": {
+      "label": "Web app",
+      "onAutoForward": "notify"
+    }
+  }
+}
