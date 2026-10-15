@@ -1,7 +1,7 @@
 {
   "name": "",
   "image": "mcr.microsoft.com/devcontainers/python:3.12",
-  "forwardPorts": [8000, 3000],
+  "forwardPorts": [5500, 5505],
   "portsAttributes": {
     "5500": {
       "label": "Python app",
