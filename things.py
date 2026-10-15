@@ -1,3 +1,10 @@
-import TensorFlow as tf
+import tensorflow as tf  # type: ignore
 
-print(tf.__file__)
+model = tf.keras.Sequential([
+    tf.keras.layers.Input(shape=(10,)),
+    tf.keras.layers.Dense(32, activation="relu"),
+    tf.keras.layers.Dense(1)
+])
+
+model.compile(optimizer="adam", loss="mse")
+model.summary()
